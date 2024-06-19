@@ -109,3 +109,86 @@
      padding: 0.7em;
 
  }
+
+
+ /* Media Queries for responsiveness */
+ @media (max-width: 1300px) {
+     #message {
+         font-size: 1em;
+         padding: 0.5em 1em;
+         left: 35%;
+         bottom: 55%;
+
+     }
+
+     #cookie-2 {
+         width: 80%;
+     }
+
+     #reveal-button {
+         font-size: 1.1em;
+         padding: 0.5em 0.8em;
+     }
+
+ }
+ @media (max-width: 1000px) {
+     #message {
+         font-size: 1em;
+         padding: 0.5em 1em;
+         left: 30%;
+         bottom: 65%;
+         width: 30%;
+
+     }
+
+     #cookie-2 {
+         width: 70%;
+     }
+
+     #reveal-button {
+         font-size: 1.1em;
+         padding: 0.5em 0.8em;
+     }
+
+ }
+ @media (max-width: 768px) {
+     #message {
+         font-size: 1em;
+         /* padding: 0.5em 1em; */
+         width: 23em;
+         left: 33%;
+        bottom: 63%;
+
+     }
+     #cookie-2{
+        width: 70%;
+     }
+
+     #reveal-button {
+         font-size: 1.1em;
+         padding: 0.5em 0.8em;
+     }
+       
+ }
+
+ @media (max-width: 480px) {
+     #message {
+         font-size: 0.9em;
+         padding: 0.5em;
+     }
+     #cookie-2{
+        width: 50%;
+        
+     }
+        #cookie-1-half,#cookie-2-half{
+            height: 14em;
+            
+        }
+
+     #reveal-button {
+         font-size: 1em;
+         padding: 0.5em 0.7em;
+     }
+
+        
+ }
